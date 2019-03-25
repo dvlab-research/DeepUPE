@@ -1,2 +1,2 @@
 # DeepUPE
-CVPR19 oral paper
+We will release our code ASAP!
