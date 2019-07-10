@@ -12,11 +12,11 @@
    git clone https://github.com/wangruixing/DeepUPE.git
    ```
 2. Install the Python dependencies, run:
-
+    ```shell
     cd main
     pip install -r requirements.txt
     make
-
+    ```
 3. Evaluation:
 The test set can be downloaded in https://drive.google.com/file/d/1HZnNgptNxjKJAhekz2K5yh0mW0yKIws2/view?usp=sharing. It includes 500 pair images from MIT-Adobe FiveK 4500-5000. You can download this and run:
 ```shell
