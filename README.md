@@ -22,9 +22,7 @@ The test set can be downloaded in https://drive.google.com/file/d/1HZnNgptNxjKJA
 ```shell
     python main/run.py checkpoints <input file path> <output file path>
 ```    
-Then we use avg_psnr.m to calculate the psnr value. 
-
-
+PSNR evaluation code is in avg_psnr.m. Modify the related paths in 'avg_psnr.m', and run it.
 
 
 
