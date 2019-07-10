@@ -1,10 +1,34 @@
 # Underexposed Photo Enhancement Using Deep Illumination Estimation
-#### CVPR2019
+
 [Ruixing Wang](http://appsrv.cse.cuhk.edu.hk/~rxwang/)<sup>1</sup>, [Qing Zhang](http://zhangqing-home.net)<sup>2</sup>, [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/)<sup>1</sup>, [Xiaoyong Shen](http://xiaoyongshen.me/)<sup>3</sup>, [Wei-Shi Zheng](https://sites.google.com/site/sunnyweishi/)<sup>2</sup>, [Jiaya Jia](http://jiaya.me/)<sup>1,3</sup>
 
 <sup>1</sup>The chinese university of hong kong <sup>2</sup>Sun Yat-sen University <sup>3</sup>Tencent Youtu Lab
 
-Our code and model will be released soon. Thanks for your attention.
+### Usage
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/wangruixing/DeepUPE.git
+   ```
+2. Install the Python dependencies, run:
+
+    cd main
+    pip install -r requirements.txt
+    make
+
+3. Evaluation:
+The test set can be downloaded in https://drive.google.com/file/d/1HZnNgptNxjKJAhekz2K5yh0mW0yKIws2/view?usp=sharing. It includes 500 pair images from MIT-Adobe FiveK 4500-5000. You can download this and run:
+```shell
+    python main/run.py checkpoints <input file path> <output file path>
+```    
+Then we use avg_psnr.m to calculate the psnr value. 
+
+
+
+
+
+
 
 # Bibtex
 ```
