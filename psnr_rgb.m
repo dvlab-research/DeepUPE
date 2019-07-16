@@ -1,5 +1,6 @@
 function [PSNR, MSE, MSE_r, MSE_g, MSE_b] = psnr_rgb(X, Y)
-
+X = double(X);
+Y = double(Y);
 X_r= X(:,:,1);
 X_g= X(:,:,2);
 X_b= X(:,:,3);
