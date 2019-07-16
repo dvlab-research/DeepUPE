@@ -4,6 +4,7 @@
 
 <sup>1</sup>The chinese university of hong kong <sup>2</sup>Sun Yat-sen University <sup>3</sup>Tencent Youtu Lab
 
+### [Paper](https://drive.google.com/file/d/1CCd0NVEy0yM2ulcrx44B1bRPDmyrgNYH/view?usp=sharing), [Errata](https://drive.google.com/file/d/1fJ7MQfm6NuCMtfQzLM0Y6LNU9XyQb6Ho/view?usp=sharing)
 ### Usage
 
 1. Clone the repository:
@@ -24,8 +25,8 @@ The test set can be downloaded in https://drive.google.com/file/d/1HZnNgptNxjKJA
 ```    
 PSNR evaluation code is in avg_psnr.m. Modify the related paths in 'avg_psnr.m', and run it.
 
-
-
+### Errata
+We recently found an implementation bug in calculating PSNR which were different from the value in our paper. Fortunately, this bug doesn't affect any of the conclusions in our paper, we have corrected this bug in the Matlab code and updated the corresponding values in the revised paper. We apologize for the confusion to readers.
 
 
 # Bibtex
