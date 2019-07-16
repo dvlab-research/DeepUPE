@@ -26,7 +26,7 @@ The test set can be downloaded in https://drive.google.com/file/d/1HZnNgptNxjKJA
 PSNR evaluation code is in avg_psnr.m. Modify the related paths in 'avg_psnr.m', and run it.
 
 ### Errata
-We recently found an implementation bug in calculating PSNR which were different from the value in our paper. Fortunately, this bug doesn't affect any of the conclusions in our paper, we have corrected this bug in the Matlab code and updated the corresponding values in the revised paper. We apologize for the confusion to readers.
+We recently found an implementation bug in calculating PSNR. Fortunately, this bug doesn't affect any of the conclusions in our paper, we have corrected this bug in the Matlab code and updated the corresponding values in the revised paper. We apologize for the confusion to readers.
 
 
 # Bibtex
