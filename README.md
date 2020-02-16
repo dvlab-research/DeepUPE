@@ -19,7 +19,7 @@
     make
     ```
 3. Evaluation:
-The test set can be downloaded in https://drive.google.com/file/d/1HZnNgptNxjKJAhekz2K5yh0mW0yKIws2/view?usp=sharing. It includes 500 pair images from MIT-Adobe FiveK 4500-5000. You can download this and run:
+The test set can be downloaded in https://drive.google.com/open?id=1FrlMdnwiUfHthtw0jHdp40IbOVXfsoZJ. It includes 500 pair images from MIT-Adobe FiveK 4500-5000. You can download this and run:
 ```shell
     python main/run.py checkpoints <input file path> <output file path>
 ```    
